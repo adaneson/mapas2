@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa con Leaflet - Datos Dinámicos</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+    <!-- MarkerCluster CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.css" />
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #0ec1e4 0%, #00a3d6 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 300;
+        }
+        .info-panel {
+            padding: 20px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+        }
+        .info-panel h3 {
+            margin: 0 0 15px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .filter-info {
+            font-size: 14px;
+            color: #666;
+            font-weight: normal;
+        }
+        .clear-filter-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        .clear-filter-btn:hover {
+            background: #5a6fd8;
+        }
+        .person-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .person-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease;
+        }
+        .person-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        .person-card.filtered {
+            border-left-color: #28a745;
+            background: #f8fff8;
+        }
+        .person-name {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .person-details {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.4;
+        }
+        .timestamp {
+            color: #007bff;
+            font-weight: 500;
+        }
+        .company {
+            color: #28a745;
+        }
+        .position {
+            color: #6c757d;
+            font-style: italic;
+        }
+        .registro-time {
+            color: #dc3545;
+            font-weight: 500;
+        }
+        .ubicacion {
+            color: #17a2b8;
+        }
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+        .custom-popup {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 11px; /* letra más chica */
+            max-width: 520px;
+        }
+
+        .popup-header {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 6px;
+            padding-bottom: 0px;
+            border-bottom: 2px solid #667eea;
+            font-size: 12px;
+        }
+
+        .popup-person {
+            margin: 0px 0;        /* menos espacio arriba y abajo */
+            padding: 1px 0;       /* más compacto */
+            border-bottom: 1px solid #eee;
+            line-height: 1.0;     /* altura de línea reducida */
+        }
+
+        .popup-person:last-child {
+            border-bottom: none;
+        }
+
+        /* clases dinámicas para columnas */
+        .custom-popup.cols-1 { column-count: 1; }
+        .custom-popup.cols-2 { column-count: 2; }
+        .custom-popup.cols-3 { column-count: 3; }
+        .custom-popup.cols-4 { column-count: 4; }
+
+        .error-message {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px;
+        }
+        .update-status {
+            position: absolute;
+            top: 200px;
+            left: 80px;
+            background: rgba(102, 126, 234, 0.95);
+            color: white;
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-size: 12px;
+            z-index: 1000;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        .controls {
+            padding: 20px;
+            background: rgba(255,255,255,0.95);
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .controls button {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #0ec1e4 0%, #00a3d6 100%);
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102,126,234,0.3);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .controls button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102,126,234,0.4);
+        }
+        .controls button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+        .controls select {
+            padding: 10px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            background: white;
+            transition: border-color 0.3s ease;
+        }
+        .controls select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        .controls label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #333;
+        }
+        .controls input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            accent-color: #667eea;
+        }
+        
+        /* Estilos para clusters */
+        .custom-cluster-icon {
+            background: transparent;
+        }
+        .cluster-icon {
+            background: #667eea;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            border: 3px solid white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        }
+        .cluster-small {
+            width: 30px;
+            height: 30px;
+            font-size: 12px;
+        }
+        .cluster-medium {
+            width: 35px;
+            height: 35px;
+            font-size: 14px;
+            background: #28a745;
+        }
+        .cluster-large {
+            width: 40px;
+            height: 40px;
+            font-size: 16px;
+            background: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🗺️ Mapa de Ubicaciones de Personal</h1>
+            <div class="controls">
+                <label for="map-style">Mapa:</label>
+                <select id="map-style">
+                    <option value="satellite" selected>Satélite</option>
+                    <option value="osm">OpenStreetMap</option>
+                    <option value="topo">Topográfico</option>
+                    <option value="dark">Oscuro</option>
+                    <option value="light">Claro</option>
+                    <option value="streets">Calles</option>
+                </select>
+            </div>
+        </div>
+        <div id="map"></div>
+        <div class="info-panel">
+            <h3> Personal Registrado 
+                <div class="filter-info">
+                    <span id="filterStatus">Mostrando todo el personal</span>
+                    <button id="clearFilterBtn" class="clear-filter-btn" style="display: none;">Ver Todo</button>
+                </div>
+            </h3>
+            <div id="personList" class="person-list">
+                <div class="loading">Cargando datos...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+    <!-- MarkerCluster JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
+    <!-- Datos externos (cambiar por tu archivo) -->
+    <script src="./ultima_ubicacion_personas.js"></script>
+
+    <script>
+        // Variables globales
+        let allPersonData = [];
+        let filteredPersonData = [];
+        let isFiltered = false;
+        let currentTileLayer = "satellite";
+        let reloadInterval;
+        let lastUpdateTime = null;
+        let countdownInterval;
+
+        // Capas del mapa
+        const mapLayers = {
+            satellite: L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
+                attribution: "Tiles &copy; Esri"
+            }),
+            osm: L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }),
+            topo: L.tileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", {
+                attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a>'
+            }),
+            dark: L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+            }),
+            light: L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+                attribution: "© OpenStreetMap contributors © CARTO"
+            }),
+            streets: L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {
+                attribution: "Tiles © Esri"
+            })
+        };
+
+        // Inicializar el mapa
+        const map = L.map("map", {
+            center: [-22.335, -68.892511],
+            zoom: 14,
+            maxZoom: 18,
+            layers: [mapLayers.satellite]
+        });
+
+        // Crear grupo de clusters con configuración para evitar agrupamiento excesivo
+        const markers = L.markerClusterGroup({
+            chunkedLoading: true,
+            maxClusterRadius: 1, // Reducir el radio para agrupar solo marcadores muy cercanos
+            disableClusteringAtZoom: 18, // Desactivar clustering en el zoom máximo
+            spiderfyOnMaxZoom: false, // No separar clusters al hacer zoom máximo
+            showCoverageOnHover: false,
+            zoomToBoundsOnClick: true,
+            iconCreateFunction: function(cluster) {
+                const count = cluster.getChildCount();
+                let size = 'small';
+                if (count > 10) size = 'large';
+                else if (count > 5) size = 'medium';
+
+                return L.divIcon({
+                    html: `<div class="cluster-icon cluster-${size}"><span>${count}</span></div>`,
+                    className: 'custom-cluster-icon',
+                    iconSize: L.point(40, 40)
+                });
+            }
+        });
+
+        // Función para crear icono personalizado
+        function createCustomIcon(count) {
+            return L.divIcon({
+                html: `<div style="
+                    background: #667eea;
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 12px;
+                    border: 2px solid white;
+                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+                ">${count}</div>`,
+                className: 'custom-div-icon',
+                iconSize: [30, 30],
+                iconAnchor: [15, 15]
+            });
+        }
+
+        // Función para mostrar la lista de personas
+        function displayPersonList(data, highlightFiltered = false) {
+            const personListDiv = document.getElementById('personList');
+            if (!data || data.length === 0) {
+                personListDiv.innerHTML = '<div class="error-message">No se encontraron datos para mostrar.</div>';
+                return;
+            }
+
+            const html = data.map(person => `
+                <div class="person-card ${highlightFiltered && isFiltered ? 'filtered' : ''}">
+                    <div class="person-name">${person.nombre}</div>
+                    <div class="person-details">
+                        <div class="timestamp">📅 Timestamp: ${person.timestamp_chile}</div>
+                        <div class="company">🏢 ${person.empresa}</div>
+                        <div class="position">💼 ${person.cargo}</div>
+                        ${person.ubicacion ? `<div class="ubicacion">🏠 ${person.ubicacion}</div>` : ''}
+                        <div>📍 ${person.latitud}, ${person.longitud}</div>
+                    </div>
+                </div>
+            `).join('');
+
+            personListDiv.innerHTML = html;
+        }
+
+        // Función para filtrar personas por ubicación
+        function filterPersonsByLocation(locationPeople) {
+            isFiltered = true;
+            filteredPersonData = locationPeople;
+            
+            // Actualizar el panel de información
+            displayPersonList(filteredPersonData, true);
+            
+            // Actualizar el estado del filtro
+            const filterStatus = document.getElementById('filterStatus');
+            const clearBtn = document.getElementById('clearFilterBtn');
+            filterStatus.textContent = `Mostrando ${filteredPersonData.length} persona${filteredPersonData.length !== 1 ? 's' : ''} del punto seleccionado`;
+            clearBtn.style.display = 'inline-block';
+        }
+
+        // Función para limpiar filtros
+        function clearFilter() {
+            isFiltered = false;
+            filteredPersonData = [];
+            
+            // Mostrar todas las personas
+            displayPersonList(allPersonData, false);
+            
+            // Actualizar el estado del filtro
+            const filterStatus = document.getElementById('filterStatus');
+            const clearBtn = document.getElementById('clearFilterBtn');
+            filterStatus.textContent = `Mostrando todo el personal (${allPersonData.length})`;
+            clearBtn.style.display = 'none';
+        }
+
+        // Función para procesar datos y crear marcadores
+        function processDataAndCreateMarkers(data) {
+            if (!data || data.length === 0) {
+                console.warn('No hay datos para procesar');
+                displayPersonList([]);
+                return;
+            }
+
+            // Guardar todos los datos
+            allPersonData = [...data];
+
+            // Mostrar lista completa inicialmente si no hay filtro activo
+            if (!isFiltered) {
+                displayPersonList(allPersonData);
+            }
+
+            // Agrupar por ubicación (solo misma latitud y longitud)
+            const locationGroups = {};
+            data.forEach(person => {
+                const lat = parseFloat(person.latitud);
+                const lng = parseFloat(person.longitud);
+                
+                if (isNaN(lat) || isNaN(lng)) {
+                    console.warn('Coordenadas inválidas para:', person.nombre);
+                    return;
+                }
+
+                // Usar coordenadas redondeadas para agrupar solo ubicaciones idénticas
+                const locationKey = `${lat.toFixed(6)},${lng.toFixed(6)}`;
+                
+                if (!locationGroups[locationKey]) {
+                    locationGroups[locationKey] = {
+                        lat: lat,
+                        lng: lng,
+                        people: []
+                    };
+                }
+                locationGroups[locationKey].people.push(person);
+            });
+
+            // Crear marcadores para cada grupo de ubicación
+            Object.values(locationGroups).forEach(group => {
+                const count = group.people.length;
+                
+                // Crear popup con información de las personas
+                // Calcular columnas dinámicas de 20 en 20
+                const numPeople = group.people.length;
+                const numCols = Math.min(Math.ceil(numPeople / 20), 4); 
+                // máx. 4 columnas, puedes subir si quieres más
+
+                const popupContent = `
+                    <div class="custom-popup cols-${numCols}">
+                        <div class="popup-header"> 
+                            📍 ${count} persona${count > 1 ? 's' : ''} en esta ubicación
+                            ${group.people[0].ubicacion ? `<br><small style="font-weight: normal; color: #666;">🏠 ${group.people[0].ubicacion}</small>` : ''}
+                        </div>
+                        ${group.people.map(person => `
+                            <div class="popup-person">
+                                <strong>${person.nombre}</strong>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+
+                // Crear marcador
+                const marker = L.marker([group.lat, group.lng], {
+                    icon: createCustomIcon(count)
+                }).bindPopup(popupContent, {
+                    maxWidth: 700,
+                    className: 'custom-popup-wrapper'
+                });
+
+                // Agregar evento de clic para filtrar (sin scroll)
+                marker.on('click', function(e) {
+                    filterPersonsByLocation(group.people);
+                });
+                
+                markers.addLayer(marker);
+            });
+
+            // Agregar grupo de marcadores al mapa
+            map.addLayer(markers);
+
+            // Ajustar vista para mostrar todos los marcadores
+            if (markers.getLayers().length > 0) {
+                map.fitBounds(markers.getBounds(), { padding: [20, 20] });
+            }
+        }
+
+        // Función para limpiar marcadores existentes
+        function clearMarkers() {
+            markers.clearLayers();
+        }
+
+        // Función para cargar datos desde archivo JS externo
+        async function loadDataFromFile() {
+            return new Promise((resolve, reject) => {
+                // Remover el script anterior si existe
+                const existingScript = document.querySelector('script[src*="ultima_ubicacion_personas.js"]');
+                if (existingScript) {
+                    existingScript.remove();
+                }
+
+                // Limpiar la variable global anterior
+                if (window.datosPersonas) {
+                    delete window.datosPersonas;
+                }
+
+                // Crear un script tag temporal con timestamp y random para evitar cache
+                const timestamp = new Date().getTime();
+                const random = Math.random().toString(36).substr(2, 9);
+                const script = document.createElement('script');
+                script.src = `./ultima_ubicacion_personas.js?t=${timestamp}&r=${random}&nocache=1`;
+                
+                // Agregar headers anti-cache
+                script.setAttribute('data-timestamp', timestamp);
+                
+                let timeoutId = setTimeout(() => {
+                    reject(new Error('Timeout al cargar datos (10s)'));
+                    if (script.parentNode) {
+                        script.parentNode.removeChild(script);
+                    }
+                }, 10000);
+
+                script.onload = () => {
+                    clearTimeout(timeoutId);
+                    
+                    // Verificar que los datos se cargaron correctamente
+                    if (typeof window.datosPersonas !== 'undefined' && Array.isArray(window.datosPersonas)) {
+                        console.log(`✅ Datos cargados: ${window.datosPersonas.length} personas, timestamp: ${timestamp}`);
+                        resolve([...window.datosPersonas]); // Hacer una copia para evitar referencias
+                    } else {
+                        reject(new Error('datosPersonas no definido o no es un array'));
+                    }
+                    
+                    // Limpiar el script temporal después de un delay
+                    setTimeout(() => {
+                        if (script.parentNode) {
+                            script.parentNode.removeChild(script);
+                        }
+                    }, 1000);
+                };
+
+                script.onerror = () => {
+                    clearTimeout(timeoutId);
+                    reject(new Error('Error al cargar ultima_ubicacion_personas.js'));
+                    if (script.parentNode) {
+                        script.parentNode.removeChild(script);
+                    }
+                };
+
+                document.head.appendChild(script);
+            });
+        }
+
+        // Función principal para cargar y actualizar datos
+        async function loadData(showLoading = false) {
+            const startTime = performance.now();
+            
+            if (showLoading) {
+                const loadingMessage = `
+                    <div class="loading">
+                        🔄 Actualizando datos...
+                        <small style="display: block; margin-top: 5px; color: #999;">
+                            ${new Date().toLocaleTimeString('es-CL')}
+                        </small>
+                    </div>
+                `;
+                document.getElementById('personList').innerHTML = loadingMessage;
+            }
+
+            try {
+                console.log(`🔄 Iniciando carga de datos... ${new Date().toLocaleTimeString('es-CL')}`);
+                let data = await loadDataFromFile();
+
+                // Validar que los datos son válidos
+                if (!data || !Array.isArray(data) || data.length === 0) {
+                    throw new Error('Datos vacíos o inválidos');
+                }
+
+                // Validar que al menos una persona tiene coordenadas válidas
+                const validCoords = data.filter(person => 
+                    !isNaN(parseFloat(person.latitud)) && !isNaN(parseFloat(person.longitud))
+                );
+                
+                if (validCoords.length === 0) {
+                    throw new Error('No hay coordenadas válidas en los datos');
+                }
+
+                // Limpiar marcadores anteriores
+                clearMarkers();
+                
+                // Procesar nuevos datos
+                processDataAndCreateMarkers(data);
+                
+                // Actualizar timestamp de última actualización
+                lastUpdateTime = new Date();
+                updateLastUpdateDisplay();
+                
+                const loadTime = (performance.now() - startTime).toFixed(0);
+                console.log(`✅ Datos actualizados exitosamente: ${data.length} personas cargadas en ${loadTime}ms`);
+                
+                // Mostrar detalles de los datos cargados
+                console.log('📊 Resumen de datos:', {
+                    total: data.length,
+                    conUbicacion: data.filter(p => p.ubicacion).length,
+                    conRegistro: data.filter(p => p.hora_registro).length,
+                    coordenadasValidas: validCoords.length
+                });
+
+            } catch (error) {
+                console.error('❌ Error al cargar datos:', error);
+                const errorTime = new Date().toLocaleString('es-CL');
+                
+                document.getElementById('personList').innerHTML = `
+                    <div class="error-message">
+                        ⚠️ Error al cargar datos: ${error.message}<br>
+                        <small>
+                            Intento fallido: ${errorTime}<br>
+                            Última actualización exitosa: ${lastUpdateTime ? lastUpdateTime.toLocaleString('es-CL') : 'Nunca'}
+                        </small>
+                        <br><br>
+                        <button onclick="loadData(true)" style="
+                            background: #667eea;
+                            color: white;
+                            border: none;
+                            padding: 8px 16px;
+                            border-radius: 4px;
+                            cursor: pointer;
+                        ">🔄 Reintentar</button>
+                    </div>
+                `;
+            }
+        }
+
+        // Función para mostrar última actualización
+        function updateLastUpdateDisplay() {
+            const existingStatus = document.getElementById('updateStatus');
+            if (existingStatus) existingStatus.remove();
+            
+            // Obtener la hora_registro más reciente de los datos
+            let latestRegistro = 'No disponible';
+            if (allPersonData && allPersonData.length > 0) {
+                const registroTimes = allPersonData
+                    .map(person => person.hora_registro)
+                    .filter(registro => registro && registro !== 'No disponible')
+                    .sort()
+                    .reverse();
+                    
+                if (registroTimes.length > 0) {
+                    latestRegistro = registroTimes[0];
+                }
+            }
+            
+            const statusDiv = document.createElement('div');
+            statusDiv.id = 'updateStatus';
+            statusDiv.className = 'update-status';
+            statusDiv.innerHTML = `
+                🔄 Última actualización: ${lastUpdateTime.toLocaleTimeString('es-CL')}<br>
+                ⏰ Último registro: ${latestRegistro}<br>
+                ⏱️ Próxima en: <span id="countdown">60s</span>
+            `;
+            
+            document.body.appendChild(statusDiv);
+        }
+
+        // Función para iniciar recarga automática
+        function startAutoReload() {
+            // Limpiar intervalo anterior si existe
+            if (reloadInterval) {
+                clearInterval(reloadInterval);
+            }
+            if (countdownInterval) {
+                clearInterval(countdownInterval);
+            }
+            
+            let reloadCount = 0;
+            let countdown = 60; // segundos
+            
+            // Mostrar cuenta regresiva cada segundo
+            countdownInterval = setInterval(() => {
+                const countdownSpan = document.getElementById("countdown");
+                if (countdownSpan) {
+                    countdownSpan.textContent = `${countdown}s`;
+                }
+                if (countdown > 0) {
+                    countdown--;
+                }
+            }, 1000);
+            
+            // Crear nuevo intervalo de 60 segundos
+            reloadInterval = setInterval(() => {
+                reloadCount++;
+                console.log(`🔄 Recarga automática #${reloadCount} a las ${new Date().toLocaleTimeString('es-CL')}`);
+                
+                // Reiniciar cuenta atrás
+                countdown = 60;
+                
+                // Ejecutar recarga de datos
+                loadData(true);
+            }, 60000); // 60 segundos
+        }
+
+        // Event listeners
+        document.addEventListener('DOMContentLoaded', () => {
+            // Cargar datos inicial
+            loadData(true).then(() => {
+                startAutoReload();
+            });
+            
+            // Botón para limpiar filtros
+            document.getElementById('clearFilterBtn').addEventListener('click', clearFilter);
+        });
+
+        document.getElementById("map-style").addEventListener("change", e => {
+            map.removeLayer(mapLayers[currentTileLayer]);
+            currentTileLayer = e.target.value;
+            mapLayers[currentTileLayer].addTo(map);
+        });
+    </script>
+</body>
+</html>
