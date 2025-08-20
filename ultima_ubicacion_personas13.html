@@ -800,7 +800,7 @@
             statusDiv.innerHTML = `
                 🔄 Última actualización: ${lastUpdateTime.toLocaleTimeString('es-CL')}<br>
                 ⏰ Último registro: ${latestRegistro}<br>
-                ⏱️ Próxima en: <span id="countdown">60s</span>
+                ⏱️ Próxima en: <span id="countdown">30s</span>
             `;
             
             document.body.appendChild(statusDiv);
@@ -817,7 +817,7 @@
             }
             
             let reloadCount = 0;
-            let countdown = 60; // segundos
+            let countdown = 30; // segundos
             
             // Mostrar cuenta regresiva cada segundo
             countdownInterval = setInterval(() => {
@@ -830,17 +830,17 @@
                 }
             }, 1000);
             
-            // Crear nuevo intervalo de 60 segundos
+            // Crear nuevo intervalo de 30 segundos
             reloadInterval = setInterval(() => {
                 reloadCount++;
                 console.log(`🔄 Recarga automática #${reloadCount} a las ${new Date().toLocaleTimeString('es-CL')}`);
                 
                 // Reiniciar cuenta atrás
-                countdown = 60;
+                countdown = 30;
                 
                 // Ejecutar recarga de datos
                 loadData(true);
-            }, 60000); // 60 segundos
+            }, 30000); // 30 segundos
         }
 
         // Event listeners
