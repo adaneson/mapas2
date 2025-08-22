@@ -1,12 +1,182 @@
 window.datosPersonas = [
     {
+        "nombre": "NICOLÁS DANIEL RÍOS PARADA",
+        "timestamp_chile": "22/08/2025 00:18:43",
+        "empresa": "NEXXO",
+        "cargo": "MAESTRO MAYOR ELÉCTRICO INSTRUMENTAL",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "NELSÓN RODRIGO BECERRA ALTAMIRANO",
+        "timestamp_chile": "22/08/2025 00:18:43",
+        "empresa": "NEXXO",
+        "cargo": "CHOFER DE SERVICIO",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "ESTEBAN MAYCOL GARRIDO VILLANUEVA",
+        "timestamp_chile": "22/08/2025 00:18:38",
+        "empresa": "NEXXO",
+        "cargo": "RIGGER",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "MARCO ANTONIO DELGADO TERAN",
+        "timestamp_chile": "22/08/2025 00:18:37",
+        "empresa": "NEXXO",
+        "cargo": "DIBUJANTE PROYECTISTA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "JORGE WASHINGTON RIOS MELILLÁN",
+        "timestamp_chile": "22/08/2025 00:18:36",
+        "empresa": "NEXXO",
+        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "WENDY FIORELLA ESTRADA PACHECO",
+        "timestamp_chile": "22/08/2025 00:18:36",
+        "empresa": "NEXXO",
+        "cargo": "ASESOR PREVENCION DE RIESGOS SNS",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "JOSE ALFONSO RODRIGUEZ VARGAS",
+        "timestamp_chile": "22/08/2025 00:18:35",
+        "empresa": "NEXXO",
+        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "GENARO HERNANDO CRUZ CRUZ",
+        "timestamp_chile": "22/08/2025 00:18:35",
+        "empresa": "NEXXO",
+        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "ENZO ANTONIO TORRES MUÑOZ",
+        "timestamp_chile": "22/08/2025 00:18:35",
+        "empresa": "NEXXO",
+        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "HAROL MARCELO ZUNA GARCÍA",
+        "timestamp_chile": "22/08/2025 00:18:34",
+        "empresa": "NEXXO",
+        "cargo": "MAESTRO MAYOR MECÁNICO ESTRUCTURA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "ROBERTO ERWIN OJEDA MELLA",
+        "timestamp_chile": "22/08/2025 00:18:29",
+        "empresa": "NEXXO",
+        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "GERARDO  BLANCO SALAZAR",
+        "timestamp_chile": "22/08/2025 00:18:28",
+        "empresa": "NEXXO",
+        "cargo": "SOLDADOR OXIGENISTA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "EDISON ALBERTO DELGADO RIVERA",
+        "timestamp_chile": "22/08/2025 00:18:28",
+        "empresa": "NEXXO",
+        "cargo": "SOLDADOR OXIGENISTA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "LUIS ALEJANDRO MILLA TAPIA",
+        "timestamp_chile": "22/08/2025 00:18:28",
+        "empresa": "NEXXO",
+        "cargo": "SOLDADOR TIG",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "LUIS FRANCISCO ZAMBRANO CARRERA",
+        "timestamp_chile": "22/08/2025 00:18:27",
+        "empresa": "NEXXO",
+        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "LUIS ANDRÉS CÉSPEDES CÉSPEDES",
+        "timestamp_chile": "22/08/2025 00:18:27",
+        "empresa": "NEXXO",
+        "cargo": "SUPERVISOR DE TERRENO",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "LEONEL ALFONSO PEREIRA NAVEA",
+        "timestamp_chile": "22/08/2025 00:18:26",
+        "empresa": "NEXXO",
+        "cargo": "SOLDADOR TIG",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
         "nombre": "DAMASO ENRIQUE GAHONA RAMOS",
-        "timestamp_chile": "22/08/2025 00:18:25",
+        "timestamp_chile": "22/08/2025 00:18:26",
         "empresa": "NEXXO",
         "cargo": "ASESOR SENIOR",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
@@ -16,7 +186,7 @@ window.datosPersonas = [
         "cargo": "CAPATAZ MECÁNICO ESTRUCTURA",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
@@ -26,7 +196,17 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1ERA MECANICO",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "CESAR ANDRES ALQUINTA ESPINOZA",
+        "timestamp_chile": "22/08/2025 00:18:21",
+        "empresa": "NEXXO",
+        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
@@ -36,17 +216,17 @@ window.datosPersonas = [
         "cargo": "SOLDADOR",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
-        "nombre": "ERICK MANUEL MOLINA AREYUNA",
-        "timestamp_chile": "22/08/2025 00:18:18",
+        "nombre": "JEAN PAUL PULGAR RAMIREZ",
+        "timestamp_chile": "22/08/2025 00:18:19",
         "empresa": "NEXXO",
-        "cargo": "MAESTRO 1ERA MECANICO",
+        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
@@ -56,7 +236,17 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1° ELÉCTRICO INSTRUMENTAL",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "ERICK MANUEL MOLINA AREYUNA",
+        "timestamp_chile": "22/08/2025 00:18:18",
+        "empresa": "NEXXO",
+        "cargo": "MAESTRO 1ERA MECANICO",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
@@ -66,7 +256,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1ERA MECANICO",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
@@ -76,8 +266,18 @@ window.datosPersonas = [
         "cargo": "MAESTRO 2DA REFRACTARIO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
+    },
+    {
+        "nombre": "MIGUEL ANDRES BARRAZA TARQUE",
+        "timestamp_chile": "22/08/2025 00:18:14",
+        "empresa": "NEXXO",
+        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "JUAN SARZURI AGUIRRE",
@@ -86,18 +286,68 @@ window.datosPersonas = [
         "cargo": "RIGGER",
         "latitud": -22.312733751018,
         "longitud": -68.897586458245,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM"
     },
     {
-        "nombre": "MARCO ANTONIO ROCHA JUAREZ",
-        "timestamp_chile": "22/08/2025 00:18:10",
-        "empresa": "KDM",
-        "cargo": "OPERARIO DE ASEO",
-        "latitud": -22.331831489435,
-        "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC KDM Principal"
+        "nombre": "WILFREDO ANTONIO AEDO ARRIAGADA",
+        "timestamp_chile": "22/08/2025 00:18:13",
+        "empresa": "NEXXO",
+        "cargo": "CAPATAZ MECÁNICO ESTRUCTURA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "ROBERTO CARLOS ROBLES SANCHEZ",
+        "timestamp_chile": "22/08/2025 00:18:12",
+        "empresa": "NEXXO",
+        "cargo": "CAPATAZ MECÁNICO ESTRUCTURA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "DIEGO MAURICIO CARRASCO CABEZAS",
+        "timestamp_chile": "22/08/2025 00:18:12",
+        "empresa": "NEXXO",
+        "cargo": "JEFE OFICINA TÉCNICA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "DANIELA THALIA RIVERA HIDALGO",
+        "timestamp_chile": "22/08/2025 00:18:12",
+        "empresa": "NEXXO",
+        "cargo": "ADMINISTRATIVA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "OSCAR YESID ROJAS CERDANO",
+        "timestamp_chile": "22/08/2025 00:18:12",
+        "empresa": "NEXXO",
+        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "MARCELO RODOLFO RIOS CHINGA",
+        "timestamp_chile": "22/08/2025 00:18:11",
+        "empresa": "NEXXO",
+        "cargo": "SOLDADOR OXIGENISTA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "RICARDO LEONIDAS FUENTEALBA HENRIQUEZ",
@@ -106,18 +356,28 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1ERA MECANICO",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
-        "nombre": "EDUARD CASTELLANO CEPEDA",
-        "timestamp_chile": "22/08/2025 00:18:07",
+        "nombre": "MARCO ANTONIO ROCHA JUAREZ",
+        "timestamp_chile": "22/08/2025 00:18:10",
         "empresa": "KDM",
-        "cargo": "OPERADOR MINI CARGADOR",
+        "cargo": "OPERARIO DE ASEO",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
+    },
+    {
+        "nombre": "CRISTIÁN ALEJANDRO MAMANI GONZALEZ",
+        "timestamp_chile": "22/08/2025 00:18:09",
+        "empresa": "NEXXO",
+        "cargo": "CAPATAZ MECÁNICO ESTRUCTURA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "ROMINA MACARENA TELLO TORO",
@@ -126,8 +386,58 @@ window.datosPersonas = [
         "cargo": "ASESOR EN PREVENCIÓN DE RIESGOS",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
+    },
+    {
+        "nombre": "EDUARD CASTELLANO CEPEDA",
+        "timestamp_chile": "22/08/2025 00:18:07",
+        "empresa": "KDM",
+        "cargo": "OPERADOR MINI CARGADOR",
+        "latitud": -22.331831489435,
+        "longitud": -68.879115168668,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC KDM Principal"
+    },
+    {
+        "nombre": "JUAN CARLOS ARANEDA CHUQUIMIA",
+        "timestamp_chile": "22/08/2025 00:18:06",
+        "empresa": "NEXXO",
+        "cargo": "CAPATAZ MECÁNICO ESTRUCTURA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "DAVID GONZALO PINTO MARAMBIO",
+        "timestamp_chile": "22/08/2025 00:18:06",
+        "empresa": "NEXXO",
+        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "CRISTIAN ANTONIO ROJO URRUTIA",
+        "timestamp_chile": "22/08/2025 00:18:05",
+        "empresa": "NEXXO",
+        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "MAURICIO OLIVER CONTRERAS FERNÁNDEZ",
+        "timestamp_chile": "22/08/2025 00:18:05",
+        "empresa": "NEXXO",
+        "cargo": "OPERADOR CAMION PLUMA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "ROMER MENDOLAS MAMANI",
@@ -136,7 +446,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.311659166936,
         "longitud": -68.891684574488,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Casino A0"
     },
     {
@@ -146,7 +456,7 @@ window.datosPersonas = [
         "cargo": "SOLDADOR 6G",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
@@ -156,7 +466,7 @@ window.datosPersonas = [
         "cargo": "RIGGER",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
@@ -166,8 +476,18 @@ window.datosPersonas = [
         "cargo": "SUPERVISOR DE TERRENO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
+    },
+    {
+        "nombre": "KATHERINE VIVIANA CRUZ BAUTISTA",
+        "timestamp_chile": "22/08/2025 00:18:03",
+        "empresa": "NEXXO",
+        "cargo": "EXPEDITOR DE MATERIALES",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "CÉSAR AUDELIO MUÑOZ PÉREZ",
@@ -176,7 +496,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1° ELÉCTRICO INSTRUMENTAL",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
@@ -186,8 +506,28 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1ERA MECANICO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
+    },
+    {
+        "nombre": "PLACIDA DELGADO DELGADO",
+        "timestamp_chile": "22/08/2025 00:18:00",
+        "empresa": "NEXXO",
+        "cargo": "AUXILIAR DE ASEO",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "MILEN ESTEFANÍA ANDRADE ROJAS",
+        "timestamp_chile": "22/08/2025 00:18:00",
+        "empresa": "NEXXO",
+        "cargo": "ADMINISTRATIVA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "RODRIGO HERNAN BAUTISTA CEA",
@@ -196,8 +536,38 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1ERA REFRACTARIO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
+    },
+    {
+        "nombre": "OSCAR ANDRES CLAROS MILLA",
+        "timestamp_chile": "22/08/2025 00:17:58",
+        "empresa": "NEXXO",
+        "cargo": "PROGRAMADOR DE OBRA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "KEVIN  ALBIS ORTIZ",
+        "timestamp_chile": "22/08/2025 00:17:58",
+        "empresa": "NEXXO",
+        "cargo": "SOLDADOR OXIGENISTA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "PEDRO PABLO SAEZ GARRIDO",
+        "timestamp_chile": "22/08/2025 00:17:56",
+        "empresa": "NEXXO",
+        "cargo": "CAPATAZ MECÁNICO ESTRUCTURA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "ALEX EDUARDO SEPÚLVEDA QUIROZ",
@@ -206,7 +576,27 @@ window.datosPersonas = [
         "cargo": "SOLDADOR TIG",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "CRISTIAN OSVALDO PEZOA VALENZUELA",
+        "timestamp_chile": "22/08/2025 00:17:56",
+        "empresa": "NEXXO",
+        "cargo": "SOLDADOR OXIGENISTA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "OMAR ALBERTO LEYTON ARANCIBIA",
+        "timestamp_chile": "22/08/2025 00:17:55",
+        "empresa": "NEXXO",
+        "cargo": "CAPATAZ MECÁNICO ESTRUCTURA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
@@ -216,17 +606,37 @@ window.datosPersonas = [
         "cargo": "CAPATAZ",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
     },
     {
-        "nombre": "OMAR ALBERTO LEYTON ARANCIBIA",
+        "nombre": "JUAN MANUEL CUETO GARCIA",
         "timestamp_chile": "22/08/2025 00:17:55",
         "empresa": "NEXXO",
-        "cargo": "CAPATAZ MECÁNICO ESTRUCTURA",
+        "cargo": "RIGGER",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "JUAN CARLOS VICENTE MUYURICO",
+        "timestamp_chile": "22/08/2025 00:17:55",
+        "empresa": "NEXXO",
+        "cargo": "MAESTRO MAYOR ELÉCTRICO INSTRUMENTAL",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "NICOLE ANDREA CASTILLO CHAVEZ",
+        "timestamp_chile": "22/08/2025 00:17:54",
+        "empresa": "NEXXO",
+        "cargo": "ASESOR PREVENCION DE RIESGOS SNS",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
@@ -236,18 +646,8 @@ window.datosPersonas = [
         "cargo": "OPERADOR MINIBUS",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
-    },
-    {
-        "nombre": "JESÚS  GONZÁLEZ YUVIR",
-        "timestamp_chile": "22/08/2025 00:17:52",
-        "empresa": "NEXXO",
-        "cargo": "SOLDADOR OXIGENISTA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "ADRIAN ARTURO CHERYS GARCIA",
@@ -256,8 +656,18 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
+    },
+    {
+        "nombre": "JESÚS  GONZÁLEZ YUVIR",
+        "timestamp_chile": "22/08/2025 00:17:52",
+        "empresa": "NEXXO",
+        "cargo": "SOLDADOR OXIGENISTA",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "JAIME TOSCANO ESQUIVEL",
@@ -266,8 +676,18 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
+    },
+    {
+        "nombre": "JAIRO ISAAC CUADRA CAMPILLAY",
+        "timestamp_chile": "22/08/2025 00:17:52",
+        "empresa": "NEXXO",
+        "cargo": "MAESTRO 1° CIVIL",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "RODRIGO IGNACIO CASTILLO CATALDO",
@@ -276,7 +696,7 @@ window.datosPersonas = [
         "cargo": "PROGRAMADOR",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
@@ -286,7 +706,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
     },
     {
@@ -296,7 +716,7 @@ window.datosPersonas = [
         "cargo": "AUXILIAR DE ASEO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
@@ -306,17 +726,17 @@ window.datosPersonas = [
         "cargo": "OPERADOR HIDROJET",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
     },
     {
-        "nombre": "JOSÉ GABRIEL GOMEZ LOPEZ",
-        "timestamp_chile": "22/08/2025 00:17:47",
+        "nombre": "ALEX ARMANDO PEREZ CHIPANA",
+        "timestamp_chile": "22/08/2025 00:17:48",
         "empresa": "NEXXO",
-        "cargo": "MAESTRO 1ERA MECANICO",
+        "cargo": "MAESTRO MAYOR MECÁNICO ESTRUCTURA",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
@@ -326,8 +746,18 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
+    },
+    {
+        "nombre": "JOSÉ GABRIEL GOMEZ LOPEZ",
+        "timestamp_chile": "22/08/2025 00:17:47",
+        "empresa": "NEXXO",
+        "cargo": "MAESTRO 1ERA MECANICO",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "PEDRO ANTONIO CARVACHO MARTINEZ",
@@ -336,7 +766,7 @@ window.datosPersonas = [
         "cargo": "CONDUCTOR OPERADOR CAMION TOLVA SENIOR",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
     },
     {
@@ -346,7 +776,7 @@ window.datosPersonas = [
         "cargo": "CAPATAZ",
         "latitud": -22.311659166936,
         "longitud": -68.891684574488,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Casino A0"
     },
     {
@@ -356,7 +786,7 @@ window.datosPersonas = [
         "cargo": "ASESOR HSEQ",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
     },
     {
@@ -366,7 +796,7 @@ window.datosPersonas = [
         "cargo": "ASESOR HSEQ",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
     },
     {
@@ -376,8 +806,18 @@ window.datosPersonas = [
         "cargo": "OPERADOR CAMIÓN PLUMA",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
+    },
+    {
+        "nombre": "LEONEL FERNANDO LARRONDO ALVAREZ",
+        "timestamp_chile": "22/08/2025 00:17:44",
+        "empresa": "NEXXO",
+        "cargo": "CHOFER DE SERVICIO",
+        "latitud": -22.328839025764,
+        "longitud": -68.885274223686,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "EDWIN SARZURI AGUIRRE",
@@ -386,27 +826,27 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.311659166936,
         "longitud": -68.891684574488,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Casino A0"
     },
     {
-        "nombre": "NELSÓN RODRIGO BECERRA ALTAMIRANO",
-        "timestamp_chile": "22/08/2025 00:17:43",
+        "nombre": "JOSÉ LUIS CARAZANI VEDIA",
+        "timestamp_chile": "22/08/2025 00:17:42",
         "empresa": "NEXXO",
-        "cargo": "CHOFER DE SERVICIO",
+        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
-        "nombre": "NICOLÁS DANIEL RÍOS PARADA",
-        "timestamp_chile": "22/08/2025 00:17:40",
+        "nombre": "GABRIEL MAURICIO GONZÁLEZ GARCÍA",
+        "timestamp_chile": "22/08/2025 00:17:42",
         "empresa": "NEXXO",
-        "cargo": "MAESTRO MAYOR ELÉCTRICO INSTRUMENTAL",
+        "cargo": "CAPATAZ MECÁNICO ESTRUCTURA",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
@@ -416,18 +856,8 @@ window.datosPersonas = [
         "cargo": "ENCARGADO DE PAÑOL Y BODEGA",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
-    },
-    {
-        "nombre": "ESTEBAN MAYCOL GARRIDO VILLANUEVA",
-        "timestamp_chile": "22/08/2025 00:17:38",
-        "empresa": "NEXXO",
-        "cargo": "RIGGER",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "HUGO ENRIQUE LUZA CHACANA",
@@ -436,7 +866,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1ERA REFRACTARIO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
@@ -446,7 +876,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO MAYOR MECÁNICO ESTRUCTURA",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
@@ -456,28 +886,8 @@ window.datosPersonas = [
         "cargo": "MAESTRO MAYOR MECANICO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
-    },
-    {
-        "nombre": "JORGE WASHINGTON RIOS MELILLÁN",
-        "timestamp_chile": "22/08/2025 00:17:36",
-        "empresa": "NEXXO",
-        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "MARCO ANTONIO DELGADO TERAN",
-        "timestamp_chile": "22/08/2025 00:17:36",
-        "empresa": "NEXXO",
-        "cargo": "DIBUJANTE PROYECTISTA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "RODRIGO ANTONIO TABILO TABILO",
@@ -486,7 +896,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO MAYOR MECÁNICO ESTRUCTURA",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
@@ -496,18 +906,8 @@ window.datosPersonas = [
         "cargo": "RIGGER",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
-    },
-    {
-        "nombre": "WENDY FIORELLA ESTRADA PACHECO",
-        "timestamp_chile": "22/08/2025 00:17:35",
-        "empresa": "NEXXO",
-        "cargo": "ASESOR PREVENCION DE RIESGOS SNS",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "SAMUEL ESPADA CAMPOS",
@@ -516,48 +916,8 @@ window.datosPersonas = [
         "cargo": "RIGGER",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
-    },
-    {
-        "nombre": "GENARO HERNANDO CRUZ CRUZ",
-        "timestamp_chile": "22/08/2025 00:17:34",
-        "empresa": "NEXXO",
-        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "JOSE ALFONSO RODRIGUEZ VARGAS",
-        "timestamp_chile": "22/08/2025 00:17:34",
-        "empresa": "NEXXO",
-        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "HAROL MARCELO ZUNA GARCÍA",
-        "timestamp_chile": "22/08/2025 00:17:34",
-        "empresa": "NEXXO",
-        "cargo": "MAESTRO MAYOR MECÁNICO ESTRUCTURA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "ENZO ANTONIO TORRES MUÑOZ",
-        "timestamp_chile": "22/08/2025 00:17:34",
-        "empresa": "NEXXO",
-        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "REINA CLAUDIA VICTORIA CASTRO FERNANDEZ",
@@ -566,18 +926,8 @@ window.datosPersonas = [
         "cargo": "ASESOR EN PREVENCIÓN DE RIESGOS",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
-    },
-    {
-        "nombre": "LUIS ARNALDO TAPIA CASTILLO",
-        "timestamp_chile": "22/08/2025 00:17:31",
-        "empresa": "KDM",
-        "cargo": "OPERARIO DE ASEO",
-        "latitud": -22.331831489435,
-        "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC KDM Principal"
     },
     {
         "nombre": "VICTOR ANDRÉS GONZALEZ PUCA",
@@ -586,7 +936,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
@@ -596,8 +946,18 @@ window.datosPersonas = [
         "cargo": "MAESTRO MAYOR ELÉCTRICO INSTRUMENTAL",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
+    },
+    {
+        "nombre": "LUIS ARNALDO TAPIA CASTILLO",
+        "timestamp_chile": "22/08/2025 00:17:31",
+        "empresa": "KDM",
+        "cargo": "OPERARIO DE ASEO",
+        "latitud": -22.331831489435,
+        "longitud": -68.879115168668,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC KDM Principal"
     },
     {
         "nombre": "CARMELO COIMBRA CORREA",
@@ -606,7 +966,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
     },
     {
@@ -616,7 +976,7 @@ window.datosPersonas = [
         "cargo": "AUXILIAR DE ASEO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
@@ -626,7 +986,7 @@ window.datosPersonas = [
         "cargo": "SOLDADOR OXIGENISTA",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
     },
     {
@@ -636,78 +996,8 @@ window.datosPersonas = [
         "cargo": "OPERADOR CAMIÓN PLUMA",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "EDISON ALBERTO DELGADO RIVERA",
-        "timestamp_chile": "22/08/2025 00:17:27",
-        "empresa": "NEXXO",
-        "cargo": "SOLDADOR OXIGENISTA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "LUIS ALEJANDRO MILLA TAPIA",
-        "timestamp_chile": "22/08/2025 00:17:27",
-        "empresa": "NEXXO",
-        "cargo": "SOLDADOR TIG",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "GERARDO  BLANCO SALAZAR",
-        "timestamp_chile": "22/08/2025 00:17:27",
-        "empresa": "NEXXO",
-        "cargo": "SOLDADOR OXIGENISTA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "LUIS FRANCISCO ZAMBRANO CARRERA",
-        "timestamp_chile": "22/08/2025 00:17:26",
-        "empresa": "NEXXO",
-        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "LUIS ANDRÉS CÉSPEDES CÉSPEDES",
-        "timestamp_chile": "22/08/2025 00:17:25",
-        "empresa": "NEXXO",
-        "cargo": "SUPERVISOR DE TERRENO",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "ROBERTO ERWIN OJEDA MELLA",
-        "timestamp_chile": "22/08/2025 00:17:25",
-        "empresa": "NEXXO",
-        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "ROVIN OLIVERA NEGRETE",
-        "timestamp_chile": "22/08/2025 00:17:24",
-        "empresa": "KDM",
-        "cargo": "OPERARIO DE ASEO",
-        "latitud": -22.331831489435,
-        "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC KDM Principal"
     },
     {
         "nombre": "SEBASTIAN ALEXIS FUENTES AVENDAÑO",
@@ -716,28 +1006,18 @@ window.datosPersonas = [
         "cargo": "CONDUCTOR OPERADOR AMPLIROLL",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
     },
     {
-        "nombre": "LEONEL ALFONSO PEREIRA NAVEA",
+        "nombre": "ROVIN OLIVERA NEGRETE",
         "timestamp_chile": "22/08/2025 00:17:24",
-        "empresa": "NEXXO",
-        "cargo": "SOLDADOR TIG",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "CESAR ANDRES ALQUINTA ESPINOZA",
-        "timestamp_chile": "22/08/2025 00:17:20",
-        "empresa": "NEXXO",
-        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
+        "empresa": "KDM",
+        "cargo": "OPERARIO DE ASEO",
+        "latitud": -22.331831489435,
+        "longitud": -68.879115168668,
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC KDM Principal"
     },
     {
         "nombre": "PATRICIO EDUARDO ANZA CRUZ",
@@ -746,7 +1026,7 @@ window.datosPersonas = [
         "cargo": "OPERADOR MINI CARGADOR",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
     },
     {
@@ -756,7 +1036,17 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "CC KDM Principal"
+    },
+    {
+        "nombre": "JUAN RAMON RIGOBERTO REBOLLEDO TRONCOSO",
+        "timestamp_chile": "22/08/2025 00:17:18",
+        "empresa": "KDM",
+        "cargo": "OPERARIO DE ASEO",
+        "latitud": -22.331831489435,
+        "longitud": -68.879115168668,
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
     },
     {
@@ -766,18 +1056,8 @@ window.datosPersonas = [
         "cargo": "SUPERVISOR DE TERRENO",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "JUAN RAMON RIGOBERTO REBOLLEDO TRONCOSO",
-        "timestamp_chile": "22/08/2025 00:17:18",
-        "empresa": "KDM",
-        "cargo": "OPERARIO DE ASEO",
-        "latitud": -22.331831489435,
-        "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC KDM Principal"
     },
     {
         "nombre": "RICHARD PLACENCIA PAEZ",
@@ -786,7 +1066,7 @@ window.datosPersonas = [
         "cargo": "SOLDADOR 6G",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
@@ -796,18 +1076,8 @@ window.datosPersonas = [
         "cargo": "OPERADOR CAMION SUPER SUCKER",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
-    },
-    {
-        "nombre": "JEAN PAUL PULGAR RAMIREZ",
-        "timestamp_chile": "22/08/2025 00:17:17",
-        "empresa": "NEXXO",
-        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "RODRIGO GUILLERMO DIAZ CABELLOS",
@@ -816,7 +1086,7 @@ window.datosPersonas = [
         "cargo": "ASESOR EN PREVENCIÓN DE RIESGOS",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
@@ -826,7 +1096,7 @@ window.datosPersonas = [
         "cargo": "ASISTENTE RRLL",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
     },
     {
@@ -836,38 +1106,8 @@ window.datosPersonas = [
         "cargo": "CAPATAZ MECÁNICO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
-    },
-    {
-        "nombre": "MIGUEL ANDRES BARRAZA TARQUE",
-        "timestamp_chile": "22/08/2025 00:17:14",
-        "empresa": "NEXXO",
-        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "WILFREDO ANTONIO AEDO ARRIAGADA",
-        "timestamp_chile": "22/08/2025 00:17:13",
-        "empresa": "NEXXO",
-        "cargo": "CAPATAZ MECÁNICO ESTRUCTURA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "ROBERTO CARLOS ROBLES SANCHEZ",
-        "timestamp_chile": "22/08/2025 00:17:12",
-        "empresa": "NEXXO",
-        "cargo": "CAPATAZ MECÁNICO ESTRUCTURA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "NOLBERTO ENRIQUE AVALOS PASTEN",
@@ -876,18 +1116,8 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
-    },
-    {
-        "nombre": "DIEGO MAURICIO CARRASCO CABEZAS",
-        "timestamp_chile": "22/08/2025 00:17:12",
-        "empresa": "NEXXO",
-        "cargo": "JEFE OFICINA TÉCNICA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "RAMIRO ARAYA DIAZ",
@@ -896,48 +1126,8 @@ window.datosPersonas = [
         "cargo": "CAPATAZ",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
-    },
-    {
-        "nombre": "DANIELA THALIA RIVERA HIDALGO",
-        "timestamp_chile": "22/08/2025 00:17:11",
-        "empresa": "NEXXO",
-        "cargo": "ADMINISTRATIVA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "MARCELO RODOLFO RIOS CHINGA",
-        "timestamp_chile": "22/08/2025 00:17:10",
-        "empresa": "NEXXO",
-        "cargo": "SOLDADOR OXIGENISTA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "CRISTIÁN ALEJANDRO MAMANI GONZALEZ",
-        "timestamp_chile": "22/08/2025 00:17:09",
-        "empresa": "NEXXO",
-        "cargo": "CAPATAZ MECÁNICO ESTRUCTURA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "OSCAR YESID ROJAS CERDANO",
-        "timestamp_chile": "22/08/2025 00:17:07",
-        "empresa": "NEXXO",
-        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "JAVIER ANTONIO VARAS OYARCE",
@@ -946,48 +1136,8 @@ window.datosPersonas = [
         "cargo": "SOLDADOR 4G",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
-    },
-    {
-        "nombre": "JUAN CARLOS ARANEDA CHUQUIMIA",
-        "timestamp_chile": "22/08/2025 00:17:05",
-        "empresa": "NEXXO",
-        "cargo": "CAPATAZ MECÁNICO ESTRUCTURA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "DAVID GONZALO PINTO MARAMBIO",
-        "timestamp_chile": "22/08/2025 00:17:05",
-        "empresa": "NEXXO",
-        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "MAURICIO OLIVER CONTRERAS FERNÁNDEZ",
-        "timestamp_chile": "22/08/2025 00:17:03",
-        "empresa": "NEXXO",
-        "cargo": "OPERADOR CAMION PLUMA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "KATHERINE VIVIANA CRUZ BAUTISTA",
-        "timestamp_chile": "22/08/2025 00:17:01",
-        "empresa": "NEXXO",
-        "cargo": "EXPEDITOR DE MATERIALES",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "JUAN CARLOS QUISPE LOZA",
@@ -996,108 +1146,8 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO INDUSTRIAL",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
-    },
-    {
-        "nombre": "PLACIDA DELGADO DELGADO",
-        "timestamp_chile": "22/08/2025 00:16:59",
-        "empresa": "NEXXO",
-        "cargo": "AUXILIAR DE ASEO",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "MILEN ESTEFANÍA ANDRADE ROJAS",
-        "timestamp_chile": "22/08/2025 00:16:58",
-        "empresa": "NEXXO",
-        "cargo": "ADMINISTRATIVA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "KEVIN  ALBIS ORTIZ",
-        "timestamp_chile": "22/08/2025 00:16:57",
-        "empresa": "NEXXO",
-        "cargo": "SOLDADOR OXIGENISTA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "PEDRO PABLO SAEZ GARRIDO",
-        "timestamp_chile": "22/08/2025 00:16:55",
-        "empresa": "NEXXO",
-        "cargo": "CAPATAZ MECÁNICO ESTRUCTURA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "JUAN MANUEL CUETO GARCIA",
-        "timestamp_chile": "22/08/2025 00:16:54",
-        "empresa": "NEXXO",
-        "cargo": "RIGGER",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "JUAN CARLOS VICENTE MUYURICO",
-        "timestamp_chile": "22/08/2025 00:16:53",
-        "empresa": "NEXXO",
-        "cargo": "MAESTRO MAYOR ELÉCTRICO INSTRUMENTAL",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "NICOLE ANDREA CASTILLO CHAVEZ",
-        "timestamp_chile": "22/08/2025 00:16:53",
-        "empresa": "NEXXO",
-        "cargo": "ASESOR PREVENCION DE RIESGOS SNS",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "JAIRO ISAAC CUADRA CAMPILLAY",
-        "timestamp_chile": "22/08/2025 00:16:52",
-        "empresa": "NEXXO",
-        "cargo": "MAESTRO 1° CIVIL",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "CRISTIAN OSVALDO PEZOA VALENZUELA",
-        "timestamp_chile": "22/08/2025 00:16:51",
-        "empresa": "NEXXO",
-        "cargo": "SOLDADOR OXIGENISTA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "CRISTIAN ANTONIO ROJO URRUTIA",
-        "timestamp_chile": "22/08/2025 00:16:50",
-        "empresa": "NEXXO",
-        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "NICOLAS LEONARDO PEREZ ALLENDE",
@@ -1106,28 +1156,8 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1ERA ELECTRICO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
-    },
-    {
-        "nombre": "ALEX ARMANDO PEREZ CHIPANA",
-        "timestamp_chile": "22/08/2025 00:16:47",
-        "empresa": "NEXXO",
-        "cargo": "MAESTRO MAYOR MECÁNICO ESTRUCTURA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "OSCAR ANDRES CLAROS MILLA",
-        "timestamp_chile": "22/08/2025 00:16:46",
-        "empresa": "NEXXO",
-        "cargo": "PROGRAMADOR DE OBRA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "RUBEN DEL ROSARIO SALVATIERRA SALVATIERRA",
@@ -1136,38 +1166,8 @@ window.datosPersonas = [
         "cargo": "OPERADOR CAMION TOLVA",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
-    },
-    {
-        "nombre": "GABRIEL MAURICIO GONZÁLEZ GARCÍA",
-        "timestamp_chile": "22/08/2025 00:16:42",
-        "empresa": "NEXXO",
-        "cargo": "CAPATAZ MECÁNICO ESTRUCTURA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "LEONEL FERNANDO LARRONDO ALVAREZ",
-        "timestamp_chile": "22/08/2025 00:16:42",
-        "empresa": "NEXXO",
-        "cargo": "CHOFER DE SERVICIO",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
-    },
-    {
-        "nombre": "JOSÉ LUIS CARAZANI VEDIA",
-        "timestamp_chile": "22/08/2025 00:16:41",
-        "empresa": "NEXXO",
-        "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
-        "latitud": -22.328839025764,
-        "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "CC Nexxo Fundicion"
     },
     {
         "nombre": "JUAN ANTONIO IRIBARREN DIAZ",
@@ -1176,7 +1176,7 @@ window.datosPersonas = [
         "cargo": "SUPERVISOR",
         "latitud": -22.312733751018,
         "longitud": -68.897586458245,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM"
     },
     {
@@ -1186,7 +1186,7 @@ window.datosPersonas = [
         "cargo": "ASESOR HSEQ",
         "latitud": -22.312733751018,
         "longitud": -68.897586458245,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM"
     },
     {
@@ -1196,7 +1196,7 @@ window.datosPersonas = [
         "cargo": "OPERADOR CAMION TOLVA",
         "latitud": -22.312733751018,
         "longitud": -68.897586458245,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM"
     },
     {
@@ -1206,7 +1206,7 @@ window.datosPersonas = [
         "cargo": "AYUDANTE SUPER SUCKER",
         "latitud": -22.312733751018,
         "longitud": -68.897586458245,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM"
     },
     {
@@ -1216,7 +1216,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.311659166936,
         "longitud": -68.891684574488,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Casino A0"
     },
     {
@@ -1226,7 +1226,7 @@ window.datosPersonas = [
         "cargo": "CAPATAZ MECÁNICO ESTRUCTURA",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
@@ -1236,7 +1236,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
     },
     {
@@ -1246,7 +1246,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 2DA REFRACTARIO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
@@ -1256,7 +1256,7 @@ window.datosPersonas = [
         "cargo": "ANDAMIERO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
@@ -1266,7 +1266,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
@@ -1276,7 +1276,7 @@ window.datosPersonas = [
         "cargo": "CAPATAZ MECÁNICO ESTRUCTURA",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
@@ -1286,7 +1286,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 2DA REFRACTARIO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
@@ -1296,7 +1296,7 @@ window.datosPersonas = [
         "cargo": "OPERADOR CAMION SUPER SUCKER",
         "latitud": -22.312733751018,
         "longitud": -68.897586458245,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM"
     },
     {
@@ -1306,7 +1306,7 @@ window.datosPersonas = [
         "cargo": "SOLDADOR 4G",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
@@ -1316,7 +1316,7 @@ window.datosPersonas = [
         "cargo": "OPERADOR PUENTE GRUA",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
     },
     {
@@ -1326,7 +1326,7 @@ window.datosPersonas = [
         "cargo": "OPERADOR CARGADOR FRONTAL",
         "latitud": -22.312733751018,
         "longitud": -68.897586458245,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM"
     },
     {
@@ -1336,7 +1336,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1ERA ELECTRICO",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -1346,7 +1346,7 @@ window.datosPersonas = [
         "cargo": "ADMINISTRADOR DE CONTRATO",
         "latitud": -22.310478882107,
         "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2B"
     },
     {
@@ -1356,7 +1356,7 @@ window.datosPersonas = [
         "cargo": "RIGGER",
         "latitud": -22.35227688208,
         "longitud": -68.857303744188,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4B"
     },
     {
@@ -1366,7 +1366,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1ERA MECANICO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
@@ -1376,7 +1376,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1ERA REFRACTARIO",
         "latitud": -22.313387710135,
         "longitud": -68.889005564052,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Refino Fundición"
     },
     {
@@ -1386,7 +1386,7 @@ window.datosPersonas = [
         "cargo": "CAPATAZ REFRACTARIO",
         "latitud": -22.313387710135,
         "longitud": -68.889005564052,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Refino Fundición"
     },
     {
@@ -1396,7 +1396,7 @@ window.datosPersonas = [
         "cargo": "ADMINISTRADOR DE CONTRATO",
         "latitud": -22.310478882107,
         "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2B"
     },
     {
@@ -1406,7 +1406,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO MAYOR REFRACTARIO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
@@ -1416,7 +1416,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1ERA REFRACTARIO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
@@ -1426,7 +1426,7 @@ window.datosPersonas = [
         "cargo": "ASESOR PREVENCION DE RIESGOS SNS",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -1436,7 +1436,7 @@ window.datosPersonas = [
         "cargo": "SOLDADOR 6G",
         "latitud": -22.313387710135,
         "longitud": -68.889005564052,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Refino Fundición"
     },
     {
@@ -1446,7 +1446,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 2DA REFRACTARIO",
         "latitud": -22.313387710135,
         "longitud": -68.889005564052,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Refino Fundición"
     },
     {
@@ -1456,7 +1456,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO MAYOR REFRACTARIO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
@@ -1466,7 +1466,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1ERA MECANICO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
@@ -1476,7 +1476,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO MAYOR MECANICO",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -1486,7 +1486,7 @@ window.datosPersonas = [
         "cargo": "SOLDADOR 6G",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -1496,7 +1496,7 @@ window.datosPersonas = [
         "cargo": "MECANICO A",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -1506,7 +1506,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1ERA MECANICO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
@@ -1516,7 +1516,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1ERA MECANICO",
         "latitud": -22.310478882107,
         "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2B"
     },
     {
@@ -1526,7 +1526,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 2DA REFRACTARIO",
         "latitud": -22.310478882107,
         "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2B"
     },
     {
@@ -1536,7 +1536,7 @@ window.datosPersonas = [
         "cargo": "OPERADOR MINIBUS",
         "latitud": -22.310478882107,
         "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2B"
     },
     {
@@ -1546,7 +1546,7 @@ window.datosPersonas = [
         "cargo": "ANDAMIERO",
         "latitud": -22.310478882107,
         "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2B"
     },
     {
@@ -1556,7 +1556,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -1566,7 +1566,7 @@ window.datosPersonas = [
         "cargo": "OPERADOR DE GRUA HORQUILLA",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -1576,7 +1576,7 @@ window.datosPersonas = [
         "cargo": "CAPATAZ",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -1586,7 +1586,7 @@ window.datosPersonas = [
         "cargo": "RIGGER",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -1596,7 +1596,7 @@ window.datosPersonas = [
         "cargo": "CAPATAZ",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -1606,7 +1606,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -1616,7 +1616,7 @@ window.datosPersonas = [
         "cargo": "AYUDANTE SUPER SUCKER",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -1626,7 +1626,7 @@ window.datosPersonas = [
         "cargo": "AYUDANTE HIDROJET",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -1636,7 +1636,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -1646,7 +1646,7 @@ window.datosPersonas = [
         "cargo": "CAPATAZ",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
     },
     {
@@ -1656,7 +1656,7 @@ window.datosPersonas = [
         "cargo": "CAPATAZ",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
     },
     {
@@ -1666,7 +1666,7 @@ window.datosPersonas = [
         "cargo": "RIGGER",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
     },
     {
@@ -1676,7 +1676,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -1686,7 +1686,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -1696,7 +1696,7 @@ window.datosPersonas = [
         "cargo": "AUXILIAR DE ASEO",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -1706,7 +1706,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
     },
     {
@@ -1716,7 +1716,7 @@ window.datosPersonas = [
         "cargo": "AYUDANTE MECANICO",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -1726,7 +1726,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -1736,7 +1736,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -1746,7 +1746,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
     },
     {
@@ -1756,7 +1756,7 @@ window.datosPersonas = [
         "cargo": "RIGGER",
         "latitud": -22.310478882107,
         "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2B"
     },
     {
@@ -1766,7 +1766,7 @@ window.datosPersonas = [
         "cargo": "SOLDADOR TIG",
         "latitud": -22.310478882107,
         "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2B"
     },
     {
@@ -1776,7 +1776,7 @@ window.datosPersonas = [
         "cargo": "CAPATAZ MECÁNICO ESTRUCTURA",
         "latitud": -22.310478882107,
         "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2B"
     },
     {
@@ -1786,7 +1786,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO ANDAMIERO",
         "latitud": -22.310478882107,
         "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2B"
     },
     {
@@ -1796,7 +1796,7 @@ window.datosPersonas = [
         "cargo": "BODEGUERO",
         "latitud": -22.310478882107,
         "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2B"
     },
     {
@@ -1806,7 +1806,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
         "latitud": -22.310478882107,
         "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2B"
     },
     {
@@ -1816,7 +1816,7 @@ window.datosPersonas = [
         "cargo": "CAPATAZ",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -1826,18 +1826,8 @@ window.datosPersonas = [
         "cargo": "MAESTRO MAYOR MECANICO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
-    },
-    {
-        "nombre": "CARLOS DANIEL IGNACIO AIREYU",
-        "timestamp_chile": "21/08/2025 19:05:57",
-        "empresa": "KDM",
-        "cargo": "OPERARIO DE ASEO",
-        "latitud": -22.310478882107,
-        "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "Puerta 2B"
     },
     {
         "nombre": "YONATAN MARINO GUTIERREZ BRAVO",
@@ -1846,7 +1836,17 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.310478882107,
         "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "Puerta 2B"
+    },
+    {
+        "nombre": "CARLOS DANIEL IGNACIO AIREYU",
+        "timestamp_chile": "21/08/2025 19:05:57",
+        "empresa": "KDM",
+        "cargo": "OPERARIO DE ASEO",
+        "latitud": -22.310478882107,
+        "longitud": -68.916832718385,
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2B"
     },
     {
@@ -1856,7 +1856,7 @@ window.datosPersonas = [
         "cargo": "CAPATAZ",
         "latitud": -22.310478882107,
         "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2B"
     },
     {
@@ -1866,17 +1866,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.310478882107,
         "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "Puerta 2B"
-    },
-    {
-        "nombre": "DAVID MOISES GUTIERREZ BRAVO",
-        "timestamp_chile": "21/08/2025 19:05:53",
-        "empresa": "KDM",
-        "cargo": "CAPATAZ",
-        "latitud": -22.310478882107,
-        "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2B"
     },
     {
@@ -1886,7 +1876,17 @@ window.datosPersonas = [
         "cargo": "OPERADOR CARGADOR FRONTAL",
         "latitud": -22.310478882107,
         "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
+        "ubicacion": "Puerta 2B"
+    },
+    {
+        "nombre": "DAVID MOISES GUTIERREZ BRAVO",
+        "timestamp_chile": "21/08/2025 19:05:53",
+        "empresa": "KDM",
+        "cargo": "CAPATAZ",
+        "latitud": -22.310478882107,
+        "longitud": -68.916832718385,
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2B"
     },
     {
@@ -1896,7 +1896,7 @@ window.datosPersonas = [
         "cargo": "CONDUCTOR OPERADOR CAMION TOLVA SENIOR",
         "latitud": -22.310478882107,
         "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2B"
     },
     {
@@ -1906,7 +1906,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.310478882107,
         "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2B"
     },
     {
@@ -1916,7 +1916,7 @@ window.datosPersonas = [
         "cargo": "CONDUCTOR CAMIONETA COMBUSTIBLE",
         "latitud": -22.310478882107,
         "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2B"
     },
     {
@@ -1926,7 +1926,7 @@ window.datosPersonas = [
         "cargo": "OPERADOR CAMION SUPER SUCKER",
         "latitud": -22.310478882107,
         "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2B"
     },
     {
@@ -1936,7 +1936,7 @@ window.datosPersonas = [
         "cargo": "CAPATAZ",
         "latitud": -22.310478882107,
         "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2B"
     },
     {
@@ -1946,7 +1946,7 @@ window.datosPersonas = [
         "cargo": "OPERADOR PUENTE GRUA",
         "latitud": -22.310478882107,
         "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2B"
     },
     {
@@ -1956,7 +1956,7 @@ window.datosPersonas = [
         "cargo": "OPERADOR CAMIÓN PLUMA",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -1966,7 +1966,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO MAYOR MECANICO",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -1976,7 +1976,7 @@ window.datosPersonas = [
         "cargo": "AUXILIAR DE ASEO",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -1986,7 +1986,7 @@ window.datosPersonas = [
         "cargo": "OPERADOR GRÚA ALTO TONELAJE",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -1996,7 +1996,7 @@ window.datosPersonas = [
         "cargo": "SUPERVISOR DE TERRENO",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2006,7 +2006,7 @@ window.datosPersonas = [
         "cargo": "SOLDADOR 6G",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
@@ -2016,7 +2016,7 @@ window.datosPersonas = [
         "cargo": "SOLDADOR 6G",
         "latitud": -22.315509638749,
         "longitud": -68.923715554613,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 2A"
     },
     {
@@ -2026,7 +2026,7 @@ window.datosPersonas = [
         "cargo": "BODEGUERO",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2036,7 +2036,7 @@ window.datosPersonas = [
         "cargo": "MECANICO",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2046,7 +2046,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2056,7 +2056,7 @@ window.datosPersonas = [
         "cargo": "OPERADOR HIDROJET",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2066,7 +2066,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2076,7 +2076,7 @@ window.datosPersonas = [
         "cargo": "OPERADOR HIDROJET",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2086,7 +2086,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2096,7 +2096,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2106,7 +2106,7 @@ window.datosPersonas = [
         "cargo": "OPERADOR CARGADOR FRONTAL",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2116,7 +2116,7 @@ window.datosPersonas = [
         "cargo": "CAPATAZ",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2126,7 +2126,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2136,7 +2136,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2146,7 +2146,7 @@ window.datosPersonas = [
         "cargo": "OPERADOR MINI CARGADOR",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2156,7 +2156,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2166,7 +2166,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2176,7 +2176,7 @@ window.datosPersonas = [
         "cargo": "OPERADOR DINGO",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2186,7 +2186,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.35227688208,
         "longitud": -68.857303744188,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4B"
     },
     {
@@ -2196,7 +2196,7 @@ window.datosPersonas = [
         "cargo": "AYUDANTE HIDROJET",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2206,7 +2206,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2216,7 +2216,7 @@ window.datosPersonas = [
         "cargo": "AYUDANTE SUPER SUCKER",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2226,7 +2226,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2236,7 +2236,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2246,7 +2246,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2256,7 +2256,7 @@ window.datosPersonas = [
         "cargo": "OPERADOR CAMION TOLVA",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2266,7 +2266,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2276,7 +2276,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1ERA MECANICO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
@@ -2286,7 +2286,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
@@ -2296,7 +2296,7 @@ window.datosPersonas = [
         "cargo": "OPERADOR PUENTE GRUA",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
     },
     {
@@ -2306,7 +2306,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
     },
     {
@@ -2316,7 +2316,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
@@ -2326,7 +2326,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2336,7 +2336,7 @@ window.datosPersonas = [
         "cargo": "OPERADOR PUENTE GRUA",
         "latitud": -22.353446659086,
         "longitud": -68.856164540738,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "Puerta 4A"
     },
     {
@@ -2346,7 +2346,7 @@ window.datosPersonas = [
         "cargo": "MECANICO B",
         "latitud": -22.312733751018,
         "longitud": -68.897586458245,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM"
     },
     {
@@ -2356,7 +2356,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
@@ -2366,7 +2366,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1° MECÁNICO ESTRUCTURA",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
@@ -2376,7 +2376,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1ERA REFRACTARIO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
@@ -2386,7 +2386,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
     },
     {
@@ -2396,7 +2396,7 @@ window.datosPersonas = [
         "cargo": "SOLDADOR 4G",
         "latitud": -22.328839025764,
         "longitud": -68.885274223686,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Nexxo Fundicion"
     },
     {
@@ -2406,7 +2406,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
     },
     {
@@ -2416,7 +2416,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 1ERA REFRACTARIO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
@@ -2426,7 +2426,7 @@ window.datosPersonas = [
         "cargo": "MAESTRO 2DA REFRACTARIO",
         "latitud": -22.316950795456,
         "longitud": -68.890293484522,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC Pacoll"
     },
     {
@@ -2436,27 +2436,7 @@ window.datosPersonas = [
         "cargo": "OPERARIO DE ASEO",
         "latitud": -22.331831489435,
         "longitud": -68.879115168668,
-        "hora_registro": "22/08/2025 00:19:03",
+        "hora_registro": "22/08/2025 00:20:03",
         "ubicacion": "CC KDM Principal"
-    },
-    {
-        "nombre": "CARLOS ENRIQUE MONTECINOS VALLEJOS",
-        "timestamp_chile": "21/08/2025 18:19:50",
-        "empresa": "NEXXO",
-        "cargo": "BODEGUERO",
-        "latitud": -22.310478882107,
-        "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "Puerta 2B"
-    },
-    {
-        "nombre": "CLAUDIO FRANCISCO GUERRERO HERNANDEZ",
-        "timestamp_chile": "21/08/2025 18:19:48",
-        "empresa": "NEXXO",
-        "cargo": "SOLDADOR TIG",
-        "latitud": -22.310478882107,
-        "longitud": -68.916832718385,
-        "hora_registro": "22/08/2025 00:19:03",
-        "ubicacion": "Puerta 2B"
     }
 ];
